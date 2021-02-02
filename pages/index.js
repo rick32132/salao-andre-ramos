@@ -4,6 +4,7 @@ const Hello = () => {
         <>
             <div className="main">
 
+                
                 <Image className="bgWrap"
                         src={"/salao2.png"} 
                         alt="salao balneario camboriu"
@@ -28,10 +29,11 @@ const Hello = () => {
 
                 <div className="content">
 
-                    <div className="descricao">
-                        <h2> Pequena descricao do salao etc e tal bla bla bla lorem ipsum24 por 7 vamo que vamo gurizada </h2>
+                    <div className="left-side">
+                        <h2 > Pequena descricao do salao etc e tal bla bla bla lorem ipsum24 por 7 vamo que vamo gurizada </h2>
+                        <a href="something" class="button">Agendar</a>
                     </div>
-
+                   
 
                     <div className="space">
 
