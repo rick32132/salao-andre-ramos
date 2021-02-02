@@ -30,8 +30,8 @@ const Hello = () => {
                 <div className="content">
 
                     <div className="left-side">
-                        <h2 > Pequena descricao do salao etc e tal bla bla bla lorem ipsum24 por 7 vamo que vamo gurizada </h2>
-                        <a href="something" class="button">Agendar</a>
+                        <h2>O melhor salão de beleza de balneário camboriú! Cortes, Penteados, Manicure e muito mais </h2>
+                        <a href="something" className="button">Agendar</a>
                     </div>
                    
 
