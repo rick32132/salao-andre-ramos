@@ -21,9 +21,9 @@ const Hello = () => {
 
                                     <Col>
                                         <Row as="ul" className="unstyle-list text-center">
-                                            <Col as="li" lg={4}>Galeria</Col>
                                             <Col as="li" lg={4}>Serviços</Col>
                                             <Col as="li" lg={4}>Produtos</Col>
+                                            <Col as="li" lg={4}>Galeria</Col>
                                         </Row>
                                     </Col>
                                 </Row>
