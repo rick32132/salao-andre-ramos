@@ -1,8 +1,12 @@
+html, body, .adjust-height {
+    height: 100vh;
+}
+
 body {
     font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
       'Arial', sans-serif;
     color: rgb(255, 255, 255);
-    background-color: black;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 45%, rgba(94,94,94,0.6615021008403361) 100%, rgba(245,245,245,0) 100%);
 
 }
 
@@ -45,7 +49,7 @@ span {
 
 .bgWrap {
     z-index: -1;
-    opacity: 50%;
+    opacity: 40%;
     position: fixed;
     height: 100vh;
     width: 100vw;

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import {Container, Row, Col} from 'react-bootstrap';
 const Hello = () => {
     return (
-            <Container fluid>
+            <Container fluid className="adjust-height">
                 <Image className="bgWrap"
                         src={"/salao2.png"} 
                         alt="salao balneario camboriu"
@@ -10,11 +10,11 @@ const Hello = () => {
                         objectFit="cover"
                         quality={100}
                 />
-                <Row className="justify-content-center">
-                    <Col lg={10}>
+                <Row className="justify-content-center h-100">
+                    <Col lg={10} className="h-100">
                         
                         
-                        <Row>
+                        <Row className="mt-2">
                             <Col lg={8}> <h1>Salão André Ramos</h1> </Col>
 
                             <Col lg={4}>
@@ -26,9 +26,9 @@ const Hello = () => {
                             </Col> 
                         </Row>
 
-                        <Row className="align-items-center h-75 d-inline-block">
-                            <Col lg={6}>
-                                        <h2>O melhor salão de beleza de balneário camboriú! Cortes, Penteados, Manicure e muito mais </h2>
+                        <Row className="align-items-center h-100">
+                            <Col lg={5} className="mb-5">
+                                        <h2 className="mb-4">O melhor salão de beleza de balneário camboriú! Cortes, Penteados, Manicure e muito mais </h2>
                                         <a href="something" className="button">Agendar</a>
                             </Col>
                         </Row>
