@@ -34,11 +34,18 @@ const Hello = () => {
                     
                     <Col lg={10} className="h-80">
                         <Row className="align-items-center">
-                            <Col lg={5} className="mb-5 pb-4 pt-3 rounded background">
-                                        <h2 className="mb-4">O melhor salão de beleza de balneário camboriú! Cortes, Penteados, Manicure e muito mais </h2>
-                                        <a href="something" className="button">Agendar</a>
+                            <Col lg={5} className="mb-5  ">
+                                        <h2 className="mb-4 p-1 rounded">O melhor salão de beleza de balneário camboriú! Cortes, Penteados, Manicure e muito mais </h2>
+                                        <a href="something" className="button shadow">Agendar</a>
                             </Col>
                         </Row>
+                    </Col>
+                </Row>
+
+                <Row className="adjust-height justify-content-center content-background">    
+                    <Col lg={10} className="adjust-height text-align-center">
+                            <h1 className="background w-1">Serviços</h1>
+                        
                     </Col>
                 </Row>
                     

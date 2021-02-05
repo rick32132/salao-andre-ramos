@@ -2,11 +2,23 @@ html, body, .adjust-height {
     height: 100vh;
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url("../public/fonts/Roboto-Regular.ttf");
+}
+
+.content-background {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(199,83,124,1) 100%);
+}
+
+
 body {
-    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-      'Arial', sans-serif;
-    color: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 45%, rgba(94,94,94,0.6615021008403361) 100%, rgba(245,245,245,0) 100%);
+    font-family: 'Roboto', sans-serif;
+    background: rgb(255, 255, 255);
+   
+    /* color: rgb(255, 255, 255); */
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 45%, rgba(94,94,94,0.6615021008403361) 100%, rgba(245,245,245,0) 100%); */
 }
 
 .background {
@@ -68,7 +80,7 @@ a.button {
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     color:#FFFFFF;
-    background-color:#ff3399;
+    background-color:#c21250;
     box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
     text-align:center;
 }
