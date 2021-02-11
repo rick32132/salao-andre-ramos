@@ -8,8 +8,8 @@ html, body, .adjust-height {
 }
 
 .content-background {
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(199,83,124,1) 100%);
+    background: rgb(26,36,61);
+    background: linear-gradient(0deg, rgba(26,36,61,1) 0%, rgba(111,127,147,1) 100%);
 }
 
 
@@ -26,8 +26,8 @@ body {
 }
 
 .background-carousel{
-    background: rgb(127,242,247);
-    background: linear-gradient(0deg, rgba(127,242,247,1) 0%, rgba(0,140,255,1) 100%);
+    background: rgb(26,36,61);
+    background: linear-gradient(0deg, rgba(26,36,61,1) 0%, rgba(111,127,147,1) 100%);
 }
 
 h1, h2, li {

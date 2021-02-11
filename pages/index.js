@@ -6,7 +6,7 @@ const Hello = () => {
     return (
         <Container fluid className="adjust-height">
             <Image className="bgWrap"
-                src={"/salao1.jpg"}
+                src={"/salao4.jpg"}
                 alt="salao balneario camboriu"
                 layout="fill"
                 objectFit="cover"
@@ -37,7 +37,7 @@ const Hello = () => {
                 <Col lg={10} className="h-80">
                     <Row className="align-items-center">
                         <Col lg={5} className="mb-5  ">
-                            <h2 className="mb-4 p-1 rounded">O melhor salão de beleza de balneário camboriú! Cortes, Penteados, Manicure e muito mais </h2>
+                            <h2 className="mb-4 p-1 rounded">O melhor salão de beleza de balneário camboriú! Cortes, Mechas, Penteados, Manicure, Estética e muito mais </h2>
                             <a href="something" className="button shadow">Agendar</a>
                         </Col>
                     </Row>
