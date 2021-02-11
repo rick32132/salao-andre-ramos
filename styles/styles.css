@@ -25,6 +25,11 @@ body {
     background: rgba(0, 0, 0, 0.3)
 }
 
+.background-carousel{
+    background: rgb(127,242,247);
+    background: linear-gradient(0deg, rgba(127,242,247,1) 0%, rgba(0,140,255,1) 100%);
+}
+
 h1, h2, li {
     color: #ffffff;
     text-shadow:  1px 1px 3px #000000;
