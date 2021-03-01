@@ -15,19 +15,22 @@ html, body, .adjust-height {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
    
-    /* color: rgb(255, 255, 255); */
-    /* background: linear-gradient(90deg, rgba(0,0,0,1) 45%, rgba(94,94,94,0.6615021008403361) 100%, rgba(245,245,245,0) 100%); */
-}
+    background-color: whitesmoke ;
+} 
 
 .background {
-    background: rgba(0, 0, 0, 0.3)
+    background: rgba(0, 0, 0, 0.7)
 }
 
 .background-carousel{
     background: rgb(26,36,61);
     background: linear-gradient(0deg, rgba(26,36,61,1) 0%, rgba(111,127,147,1) 100%);
+}
+
+.navstyle {
+    color: white;
 }
 
 h1, h2, li {
@@ -41,6 +44,15 @@ h1 {
 
 h2 {
     font-size: 30px;
+}
+
+h3 {
+    text-shadow: 1px 1px 3px white;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    font-size: 48px;
+    font-weight: 700;
+    
 }
 
 .unstyle-list{
@@ -88,15 +100,36 @@ a.button {
     background-color:#c21250;
     box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
     text-align:center;
+    transition: all 1s ease;
+    transform: scale(1);
 }
 
-a.button:active{
-    box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+a.button:hover {
+    transform: scale(1.5) perspective(3px);
 }
 
-@media all and (max-width:30em){
-a.button {
-    display: block;
-    margin: 0.4em auto;
+.link:hover {
+    text-decoration: none;
+    cursor:pointer;
 }
+
+.card {
+    background: rgba(109, 165, 250, 0.1);
+    overflow: hidden;
+}
+
+
+.card img {
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+}
+  
+.card:hover {
+    cursor:pointer;
+}
+
+.card:hover img {
+    filter: brightness(100%);
+    transform: scale(1.3);
 }

@@ -1,18 +1,27 @@
-import { Container, Row, Col } from 'react-bootstrap';
-const TopMenu = ({title}) => {
+import { Col, Nav, Navbar } from 'react-bootstrap';
+import { Link, animateScroll } from "react-scroll";
+
+const TopMenu = () => {
+    
+    const scrollTop = () => {
+        animateScroll.scrollToTop();
+    }
+
 
     return (
-        <Col lg={12}>
-            <Row className="justify-content-center align-items-center background">
-                <Col lg={10}>
-                    <Row className="justity-content-between text-center p-3">
-                        <Col className="align-items-center">
-                            <h1 className="mb-0">{title}</h1>
-                        </Col>
-                    </Row>
-                </Col>
-            </Row>
-         </Col>
+        <Navbar fixed="top" expand="lg" className="justify-content-center background pb-1">
+            <Col lg={6}>
+                <h1 onClick={scrollTop} className="link" >Salão André Ramos</h1>
+            </Col>
+            
+            <Col lg={4} className="ml-4">
+                <Nav>
+                    <Link to="services" smooth={true} duration={300} className="mr-5 link"><h2>Serviços</h2></Link>
+                    <Link to="gallery" smooth={true} duration={300} className="mr-5 link"><h2>Galeria</h2></Link>
+                </Nav>
+            </Col>
+            
+        </Navbar>
     )
 
 }
