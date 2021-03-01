@@ -11,7 +11,7 @@ const Gallery = () => {
                         <Carousel >
                             <Carousel.Item>
                                 <Image className="d-block w-50"
-                                    src={"/Carousel1.png"}
+                                    src={"/carousel1.png"}
                                     alt="Unhas"
                                     width={1154}
                                     height={648}
@@ -21,7 +21,7 @@ const Gallery = () => {
                             </Carousel.Item>
                             <Carousel.Item>
                                 <Image className="d-block w-50"
-                                    src={"/Carousel2.png"}
+                                    src={"/carousel2.png"}
                                     alt="Unhas"
                                     width={1154}
                                     height={648}
@@ -30,7 +30,7 @@ const Gallery = () => {
                             </Carousel.Item>
                             <Carousel.Item>
                                 <Image className="d-block w-50"
-                                    src={"/Carousel3.png"}
+                                    src={"/carousel3.png"}
                                     alt="Unhas"
                                     width={1154}
                                     height={648}
