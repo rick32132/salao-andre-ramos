@@ -7,8 +7,6 @@ import Gallery from './components/Gallery';
 const Hello = () => {
     return (
         <>
-            
-            
             <Container fluid className="adjust-height">
                 <TopMenu/>
                 <Image className="bgWrap"
